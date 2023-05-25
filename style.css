@@ -1,0 +1,25 @@
+/*CSS RESET*/
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+/*UTILITIES*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+
+/*STILE*/
+.box-password {
+    border: 2px dashed black;
+    min-height: 100px;
+    width: 100vw;
+    padding: 40px 20px;
+    background-color: lightblue;
+}
+
+p {
+    font-size: 20px;
+}
