@@ -1,5 +1,9 @@
 console.log('JS OK')
 
+//RECUPERO L'ELEMENTO PASSWORD CHE HO NELLA PAGINA:
+const paragraph = document.getElementById('password');
+console.log(paragraph);
+
 //CHIEDO IL NOME ALL'UTENTE E LO SALVO:
 const userName = prompt("Qual\'è il tuo nome?");
 console.log(userName);
@@ -15,9 +19,5 @@ console.log(favouriteColor);
 //COMPONGO LA PASSWORD:
 const password = (userName + surName + favouriteColor);
 
-//RECUPERO L'ELEMENTO CHE HO NELLA PAGINA:
-const paragraph = document.getElementById('password');
-console.log(paragraph);
-
 //INSERISCO NELLA PAGINA LA PASSWORD:
-paragraph.innerText = 'La tua password è:' + password;
+paragraph.innerText = 'La tua password è:' + password + '21';
