@@ -20,4 +20,4 @@ const paragraph = document.getElementById('password');
 console.log(paragraph);
 
 //INSERISCO NELLA PAGINA LA PASSWORD:
-paragraph.innerText = password;
+paragraph.innerText = 'La tua password è:' + password;
